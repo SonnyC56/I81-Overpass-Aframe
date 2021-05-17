@@ -3,7 +3,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>A.M.E. Zion Church Interior</title>
+	<title>I-81 Viaduct</title>
 	<meta aframe-injected="" name="mobile-web-app-capable" content="yes">
 	<meta aframe-injected="" name="theme-color" content="black">
 	<script src="https://www.danpacheco.co/aframe/dist/aframe-v1.0.4.min.js"></script>
@@ -30,7 +30,7 @@
       <a-entity id="cameraRig" movement-controls="constrainToNavMesh: false;" navigator="cameraRig: #cameraRig; cameraHead: #head; collisionEntities: .collision; ignoreEntities: .clickable" position="0 0 0" rotation="0 0 0">  
 
         <!-- camera -->
-        <a-entity id="head" camera="active: true" position="0 1.6 0" look-controls="pointerLockEnabled: true; reverseMouseDrag: false" ></a-entity>
+        <a-entity id="head" camera="active: true" position="0 1.6 0" rotation="15 0 0" look-controls="pointerLockEnabled: true; reverseMouseDrag: false" ></a-entity>
 
               <!-- Left Controller -->
               <a-entity id="leftHand" hand-controls="hand: left; handModelStyle: lowPoly; color: #15ACCF" teleport-controls="cameraRig: #cameraRig; teleportOrigin: #head; button: trigger; curveShootingSpeed: 18; landingMaxAngle: 60" visible="true"></a-entity>
@@ -42,6 +42,4 @@
        </a-scene>
 </body>
 </html>
-
-
 
